@@ -1,11 +1,11 @@
 <?php 
-$contrasena = "Rejoncanul01";
-$usuario = "Roberto";
+$contrasena = "Manuelxool95";
+$usuario = "UtpServer13";
 $nombre_bd = "crud";
 
 try {
 	$bd = new PDO (
-		'mysql:host=utponiente01.mysql.database.azure.com;
+		'mysql:host=server3.mysql.database.azure.com;
 		dbname='.$nombre_bd,
 		$usuario,
 		$contrasena,
